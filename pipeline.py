@@ -236,7 +236,7 @@ def attMemory():
     return
 
 
-C = input()   
+C = input()   #nome do assembly .txt que será executado
 loadMemory()
 loadCommand(C)
 while(termino == 0):
