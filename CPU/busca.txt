@@ -1,0 +1,27 @@
+GETINT r1
+GETINT r6
+INC r5
+MOV rA r6
+JL 26
+JZ 26
+READ r2 r5
+SUB r1 r2
+JL 15
+JG 15
+MOV rA r3
+JG 14
+MOV r3 r5
+INC r4
+INC r5
+SUB r6 r5
+JG 7
+JZ 7
+MOV rA r3
+JZ 26
+PRINT primeira_ocorrencia:
+ESCREVAL r3
+PRINT total_de_ocorrencias:
+ESCREVAL r4
+JMP 27
+PRINT nao_existe
+END
