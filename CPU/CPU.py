@@ -328,7 +328,7 @@ def exec():
         else:
             rR -= 1
     else:
-        print("ERRO DE CODIGO POSSIVELMENTE NA LINHA:" + str(PC + 1))
+        print("CASO NAO AVALIADO")
     ciclos += 1    
     return
 
