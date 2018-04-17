@@ -14,7 +14,7 @@ MOV r6 r1
 MOV r2 1
 MOV rA r2
 MOV r2 0
-JZ 34
+JZ 35
 MOV r5 rR
 MOV r1 r6
 SUB r1 1
@@ -23,7 +23,8 @@ READ r4 r5
 SUB r5 1
 READ r3 rA
 SUB r3 r4
-JL 31
+JL 32
+JZ 32
 STORE r5 r3
 SUB r5 1
 STORE rA r4
